@@ -1,0 +1,13 @@
+---
+title: Reconciling phylogenetic and population genomic data create robust species
+  limits
+#author: "Lara Wootton"
+date: "12/04/2021"
+output: pdf_document
+---
+
+Multi-locus datasets are increasingly common and affordable, and have been widely used in the evolutionary field. Species delimitation, and is moving the field away from an over reliance on morphology
+
+Species delimitation is widely recognised as a crucial component of systematic biology, with ramifications for many downstream analyses. The recent abundance and affordability of genome-wide, multi-locus datasets have altered the way that species delimitation problems are approached. Greater reliance is being placed on these genetic datasets over the traditional emphasis on morphology, especially as the field focuses on uncovering taxa without discrete morphological variation. In a typical species delimitation study that uses genome-wide data, a single dataset will be created. The dataset will generally fall into too main categories 'sequence capture' and 'Radseq'.
+
+Species delimitation is widely recognised as a crucial component of systematic biology, with ramifications for many downstream analyses. The recent abundance and affordability of genome-wide, multi-locus datasets have provided unprecendented power to create robust species boundaries, even in the face of traditional difficulties such as few distinctive morphological characteristics, geneflow or ... Yet despite the insights provided by these multilocus datasets there are still uncertainties. 
