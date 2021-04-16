@@ -12,13 +12,24 @@ Species delimitation is widely recognised as a crucial component of systematic b
 
 Utility of next gen data for species delimitation
 
-Species delimitation is widely recognised as a crucial component of systematic biology, with ramifications for many downstream analyses. The recent abundance and affordability of genome-wide, multi-locus datasets have provided unprecendented power to circumscribe robust species boundaries, even in the face of traditional difficulties such as few distinctive morphological characteristics, geneflow [@Jackson2017], young species and hybrids.
+Species delimitation is widely recognised as a crucial component of systematic biology, with ramifications for many downstream analyses. The recent abundance and affordability of genome-wide, multi-locus datasets have provided unprecendented power to circumscribe robust species boundaries, even in the face of traditional difficulties to delimitation, such as few distinctive morphological characteristics [@Singhal2018; @Linck2019], speciation with gene flow [@Jackson2017; @Georges2018; @Chan2020] and hybrid speciation [@Quattrini2019]. Multilocus datasets commonly used for species delimitation can be classified into two primary types. The first is generated via sequence capture approaches, and typically consists of exons or other conserved genomic regions. The second is generated via restriction site associated DNA sequencing, or genotyping-by-sequencing approaches. Seqcapture targeted, ultraconserved etc. 
 
-Multilocus datasets can be classified into two main types, seq capture and Radseq. What they are and their pros and cons. Methods typically used on them.
 
-Problems with only using one type, and how pholygenetics is using both [@Manthey2016; @Obiol2021]. Yet to be properly done in species delimitation yet though.
+
+The two datatypes have very different phylogenetic resolutions
+
+Radseq assumed to be neutral, reflect population-level processes.
+
+Both data types have strengths and weaknesses [as covered extensively in @Harvey]. In brief:
+Phylogenetics is starting to make use of both types to resolve shallow radiations. As yet, species delimitation studies tend to use only one type. Using both to incoporate both shallow and deep time scales may help resolve persistent delimitation problems, such as grey zone and strong pop structure.
+
+What they are and their pros and cons. Methods typically used on them.
+
+Problems with only using one type, and how phylogenetics is using both [@Manthey2016; @Obiol2021]. Yet to be properly done in species delimitation yet though.
 
 In phylogentics, the both types of data are starting to be used in order to overcome their weaknesses.
-
+Species continuum?
 
 Yet despite the insights provided by these multilocus datasets there are still uncertainties. 
+
+Species continuum concept - approaching in both
