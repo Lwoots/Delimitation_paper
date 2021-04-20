@@ -6,24 +6,40 @@ date: "12/04/2021"
 output: pdf_document
 ---
 
-Multi-locus datasets are increasingly common and affordable, and have been widely used in the evolutionary field. Species delimitation, and is moving the field away from an over reliance on morphology
 
-Species delimitation is widely recognised as a crucial component of systematic biology, with ramifications for many downstream analyses. The recent abundance and affordability of genome-wide, multi-locus datasets have altered the way that species delimitation problems are approached. Greater reliance is being placed on these genetic datasets over the traditional emphasis on morphology, especially as the field focuses on uncovering taxa without discrete morphological variation. In a typical species delimitation study that uses genome-wide data, a single dataset will be created. The dataset will generally fall into too main categories 'sequence capture' and 'Radseq'.
 
 Utility of next gen data for species delimitation
 
-Species delimitation is widely recognised as a crucial component of systematic biology, with ramifications for many downstream analyses. The recent abundance and affordability of genome-wide, multi-locus datasets have provided unprecendented power to circumscribe robust species boundaries, even in the face of traditional difficulties to delimitation, such as few distinctive morphological characteristics [@Singhal2018; @Linck2019], speciation with gene flow [@Jackson2017; @Georges2018; @Chan2020] and hybrid speciation [@Quattrini2019]. Multilocus datasets commonly used for species delimitation can be classified into two primary types. The first is generated via sequence capture approaches, and typically consists of exons or other conserved genomic regions. The second is generated via restriction site associated DNA sequencing, or genotyping-by-sequencing approaches. Seqcapture targeted, ultraconserved etc. 
+Species delimitation is widely recognised as a crucial component of systematic biology, with ramifications for many downstream analyses. The recent abundance and affordability of genome-wide, multi-locus datasets have provided unprecedented power to circumscribe robust species boundaries, even in the face of traditional difficulties to delimitation, such as few distinctive morphological characteristics [@Singhal2018; @Linck2019], speciation with gene flow [@Jackson2017; @Georges2018; @Chan2020] and hybrid speciation [@Quattrini2019]. Multi-locus datasets commonly used for species delimitation can be classified into two primary types. The first is generated via sequence capture approaches, where a probe set is designed to target specific loci, and typically consists of exons or other conserved genomic regions, together with their flanking regions [@fairfield, @lemmon]. The second is generated via restriction site associated DNA sequencing (RadSeq), or genotyping-by-sequencing approaches. In this case, the data is widely spread across the genome, and consists of both coding and non coding, making it useful for population level approaches, or shallow timescales. Most species delimitation studies using Next-gen data will generate a single data type. Then, to validate hypothesised species boundaries, will focus on applying a variety of analytical methods, such as stacey, to that dataset. 
+
+In contrast, few studies have attempted to ratify species boundaries by integrating both sequence capture and Radseq datatypes [exceptions being @Linck]. Yet, under certain circumstances there are strong advantages to do so. Approaching species delimitation from two different timescales will help resolve grey zone.  In addition, Radseq has a tendency to over split species with strong pop structure. People have been trying to do this using SNPs from UCE, but this is just repackaging the same information rather than been different independent measures. Finally, by sequencing the same individuals in both account for intraspecific variability. Phylogenetics is starting to make use of both types to resolve shallow radiations, yet this trend has yet to catch on in species delimitation studies. Potential reasons for this is expense, and difficulty of reconciling different resolutions. 
 
 
 
-The two datatypes have very different phylogenetic resolutions
+The two datatypes have very different phylogenetic resolutions. Radseq assumed to be neutral, reflect population-level processes. Sequence capture in conserved and generally reflects older timescales (with the exception of flanking regions) Both data types therefore have different strengths and weaknesses for delimiting species [as covered extensively in @Harvey]. In brief:
+Phylogenetics is starting to make use of both types to resolve shallow radiations, yet this trend has yet to catch on in species delimitation studies. Using both to incoporate both shallow and deep time scales may help resolve persistent delimitation problems, such as grey zone and strong pop structure.
 
-Radseq assumed to be neutral, reflect population-level processes.
 
-Both data types have strengths and weaknesses [as covered extensively in @Harvey]. In brief:
-Phylogenetics is starting to make use of both types to resolve shallow radiations. As yet, species delimitation studies tend to use only one type. Using both to incoporate both shallow and deep time scales may help resolve persistent delimitation problems, such as grey zone and strong pop structure.
+
+The utility of the datasets depends on the system being studied. Sequence capture data is better at resolving  older timescales, although with flanking regions)
+
+
+
+Benefits of intergrating both: Independent - better than trend of calling SNPs from UCE
+
+
+
+Oversplitting is a major
+
+issue in RAD-Seq data sets and it disproportionately
+
+affects species with higher natural levels of divergence among alleles (
+
+To date, the focus has been on ratifying results using multiple methodological approaches rather 
 
 What they are and their pros and cons. Methods typically used on them.
+
+In a typical species delimitation study that uses genome-wide data, a single dataset will be created.
 
 Problems with only using one type, and how phylogenetics is using both [@Manthey2016; @Obiol2021]. Yet to be properly done in species delimitation yet though.
 
