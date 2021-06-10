@@ -76,57 +76,9 @@ Analysis of the morphological data was informed by the phylogenetic and SNP-base
 
 
 
-Maximum-likelihood and ASTRAL yielded well-supported, topologically-similar trees (Fig. 1, Fig.
+The phylogenetic analysis yielded six major clades, (here termed the Australian, Rehmannii, Ramosa, Setacea, Dura and Lowland clades) that were are resolved with strong support. In the Setacea, Ramosa and Rehmannii clades, internal branches are short relative to both the stem and terminalbranches, resulting in a “broom and handle” morphology [@Crisp2009]. In contrast, the Lowland clade has generally longer branches, with branch lengths being more evenly distributed throughout the clade. The Australian clade, comprising M. stipoides and T. laevis (LPP = 1.00), is resolved as sister to the predominantly-montane Setacea clade (LPP =1.00) with strong support (LPP = 1.00), this pair being sister to the rest of Ehrharta. The Setacea clade itself is composed of two species, E. setacea and E. rupestris, neither of which appear be monophyletic, even at the subspecies level.
 
-2). In both trees, six major clades, (here termed the Australian, Rehmannii, Ramosa, Setacea,
-
-Dura and Lowlands clades), are resolved with strong support, the relationships of these clades
-
-also being consistently well supported. The branches subtending these major clades are long, with
-
-branch length in the ML tree reflecting sequence divergence and that in the ASTRAL tree
-
-reflecting number of coalescent units (generations/effective population size). In the Setacea,
-
-Ramosa and Rehmannii clades, internal branches are short relative to both the stem and terminal
-
-branches, resulting in a “broom and handle” morphology (Crisp & Cook (2009)) (Fig. 1, Fig. 2).
-
-In contrast, the Lowlands clade has generally longer branches, with branch lengths being more
-
-evenly distributed throughout the clade.
-
-The Australian clade, comprising M. stipoides and T. laevis (BS = 100, LPP = 1.00), is
-
-consistently resolved as sister to the predominantly-montane Setacea clade (BS = 100, LPP =
-
-1.00) with strong support (BS = 100, LPP = 1.00), this pair being sister to the rest of Ehrharta
-
-(Fig. 1, Fig. 2). The Setacea clade itself is composed of two species, E. setacea and E. rupestris,
-
-neither of which appear be monophyletic.
-
-The montane Dura clade (BS = 100, LPP = 1.00), comprising E. dura and E. microlaena, is
-
-resolved with strong support (BS = 100, LPP = 1.00) as sister to a well-supported clade (BS =
-
-100, LPP = 1.00) comprising the Rehmannii, Ramosa and Lowlands clades. Within this clade,
-
-the Rehmannii (BS = 100, LPP = 1.00) and Ramosa clades (BS = 100, LPP = 1.00) are resolved
-
-as sisters with strong support (BS = 100, LPP = 1.00). The monophyly of the Lowlands clade,
-
-which comprises species occurring predominately at low to mid elevations in the GCFR, is also
-
-35
-
-well supported (BS = 100, LPP = 1.00), with the two analyses resolving the internal relationships
-
-of this clade identically and with high support (BS = 100, LPP = 1.00) on most nodes (Fig. 1,
-
-Fig. 2). Relationships within the Lowlands clade are largely consistent with those reported by
-
-Verboom, Linder & Stock (2003).
+The montane Dura clade ( LPP = 1.00), comprising E. dura and E. microlaena, is resolved with strong support (LPP = 1.00) as sister to a well-supported clade (LPP = 1.00) comprising the Rehmannii, Ramosa and Lowlands clades. The monophyly of the Lowland clade, which comprises species occurring predominately at low to mid elevations in the GCFR, is also well supported (LPP = 1.00), with the internal relationships of this clade resolved with high support (LPP = 1.00) on most nodes. Relationships within the Lowlands clade are largely consistent with those reported by [@Verboom2003]. Within this larger clade, the Rehmannii (LPP = 1.00) and Ramosa clades (LPP = 1.00) are resolved as sisters with strong support (LPP = 1.00). However, as in the Setacea clade, most subspecies are not resolved as monophyletic.
 
 
 ## References
