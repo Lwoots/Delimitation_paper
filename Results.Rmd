@@ -1,0 +1,145 @@
+---
+title: "Results"
+author: "Lara Wootton"
+date: "6/9/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+require(ggtree)
+require(here)
+```
+
+```{r astraltree, echo=F, fig.height=11.5, fig.width=9, warning=F, fig.cap="ASTRAL tree constructed using IQTREE gene trees from 307 supercontig loci. Branch lengths represent coalescent units. Tip branches are an arbitrary length not calculated by ASTRAL. Red numbers show local posterior probabilities (LPP)."}
+
+if(!require(pacman)){install.packages("pacman", dependencies=TRUE); library(pacman)}
+p_load(ggplot2, dplyr, ape, phytools, ggtree, treeio, tidyr)
+
+tree <- read.tree(here("Data", "astral_ninety_coverage_supercontig7Apr.tre"))
+
+tree$edge.length[is.na(tree$edge.length)] <- 0.35 #tip branches
+
+tree <- root(tree, outgroup = "Oryza_sativa", resolve.root = T)
+
+tree$edge.length[1] <- 0.1 #root branch
+
+#Rename tips
+
+species_names <- read.csv(here("Data", "Sp_local_edited.csv"))
+
+species_names$Collection <- as.character(species_names$Collection)
+for (i in 1:nrow(species_names)) {
+    tree$tip.label[tree$tip.label == species_names$Collection[[i]]] <- paste(
+        species_names$Species[[i]],
+        paste("(",
+              species_names$SampleID[[i]],
+              ")", sep = ""),
+        species_names$Locality[[i]]
+        
+    )
+}
+
+tree$tip.label[tree$tip.label == "Tetrarrhena laevis () "] <- "Tetrarrhena laevis"
+tree$tip.label[tree$tip.label == "Microlaena stipoides () "] <- "Microlaena stipoides"
+tree$tip.label[tree$tip.label == "Oryza_sativa"] <- "Oryza sativa"
+
+
+
+gg_tree <- ggtree(tree, right = T)
+d <- gg_tree$data
+d <- d[!d$isTip,]
+d <- d[!d$label=="Root",]
+da <- d[d$node %in% c(127, 184, 131, 185, 199, 132, 217, 136, 135, 137, 133),]
+da$label[da$label == "1"] <- "1.00"
+
+
+low <- gg_tree$data
+lowl <- low[low$node %in% c(128,129,130,121,
+                            122,123,124,125,126,
+                            111,112,113,114,115,
+                            116,117,118,119,120),]
+
+lowl$label[lowl$label == "1"] <- "1.00"
+lowl$label[lowl$label == "0.6"] <- "0.60"
+
+ggtree(tree, right = T) +
+    geom_treescale(x = -0.18, offset = 0.6, linesize = 0.6) +
+    geom_tiplab(size = 2.4, colour = "black") +
+    geom_rootedge(rootedge = 0.3) +
+    geom_nodelab(data = da, aes(label = label),
+                 size = 2.5,
+                 nudge_x = -0.15,
+                 nudge_y = -0.72,
+                 colour = "#DF0101"
+    ) +
+    geom_nodelab(data = lowl, aes(label = label),
+                 size = 2.5,
+                 nudge_x = -0.15,
+                 nudge_y = -0.72,
+                 colour = "#DF0101"
+    ) +
+    
+    #Major clades
+    
+    geom_cladelabel(node = 136, 
+                    label = "Australian clade",
+                    offset = 1.4,
+                    colour = "#1D4F9F",
+                    fontsize = 4.5,
+                    extend = 0.5,
+                    offset.text = 0.04) +
+    geom_cladelabel(node = 127, 
+                    label = "Lowlands clade", 
+                    #align = T,
+                    colour = "#1D4F9F",
+                    fontsize = 4.5,
+                    extend = 0.2,
+                    offset =1.7,
+                    angle = 90,
+                    hjust = 0.5,
+                    offset.text = 0.07) +
+    geom_cladelabel(node = 185, 
+                    label = "Rehmannii clade",
+                    colour = "#1D4F9F",
+                    fontsize = 4.5,
+                    extend = 0.2,
+                    offset = 2.8,
+                    #angle = 90,
+                    #hjust = 0.5,
+                    offset.text = 0.04) +
+    geom_cladelabel(node = 199, 
+                    label = "Ramosa clade", 
+                    #align = T,
+                    colour = "#1D4F9F",
+                    fontsize = 4.5,
+                    extend = 0.2,
+                    offset = 2.5,
+                    #angle = 90,
+                    #hjust = 0.5,
+                    offset.text = 0.04
+    ) +
+    geom_cladelabel(node = 137, 
+                    label = "Setacea clade", 
+                    #align = T,
+                    colour = "#1D4F9F",
+                    fontsize = 4.5,
+                    extend = 0.3,
+                    offset = 2.6,
+                    angle = 0,
+                    #hjust = 0.5,
+                    offset.text = 0.04) +
+    geom_cladelabel(node = 133, 
+                    label = "Dura clade", 
+                    #align = T,
+                    colour = "#1D4F9F",
+                    fontsize = 4.5,
+                    extend = 0.3,
+                    offset = 1,
+                    #angle = 90,
+                    #hjust = 0.5,
+                    offset.text = 0.04)
+
+
+```
