@@ -76,9 +76,30 @@ Analysis of the morphological data was informed by the phylogenetic and SNP-base
 
 
 
-The phylogenetic analysis yielded six major clades, (here termed the Australian, Rehmannii, Ramosa, Setacea, Dura and Lowland clades) that were are resolved with strong support. In the Setacea, Ramosa and Rehmannii clades, internal branches are short relative to both the stem and terminalbranches, resulting in a “broom and handle” morphology [@Crisp2009]. In contrast, the Lowland clade has generally longer branches, with branch lengths being more evenly distributed throughout the clade. The Australian clade, comprising M. stipoides and T. laevis (LPP = 1.00), is resolved as sister to the predominantly-montane Setacea clade (LPP =1.00) with strong support (LPP = 1.00), this pair being sister to the rest of Ehrharta. The Setacea clade itself is composed of two species, E. setacea and E. rupestris, neither of which appear be monophyletic, even at the subspecies level.
+The phylogenetic analysis yielded six major clades, (here termed the Australian, Rehmannii, Ramosa, Setacea, Dura and Lowland clades) that were are resolved with strong support. In the Setacea, Ramosa and Rehmannii clades, internal branches are short relative to both the stem and terminal branches, resulting in a “broom and handle” morphology [@Crisp2009]. In contrast, the Lowland clade has generally longer branches, with branch lengths being more evenly distributed throughout the clade. The Australian clade, comprising M. stipoides and T. laevis (LPP = 1.00), is resolved as sister to the predominantly-montane Setacea clade (LPP =1.00) with strong support (LPP = 1.00), this pair being sister to the rest of Ehrharta. The Setacea clade itself is composed of two species, E. setacea and E. rupestris, neither of which appear be monophyletic, even at the subspecies level.
 
 The montane Dura clade ( LPP = 1.00), comprising E. dura and E. microlaena, is resolved with strong support (LPP = 1.00) as sister to a well-supported clade (LPP = 1.00) comprising the Rehmannii, Ramosa and Lowlands clades. The monophyly of the Lowland clade, which comprises species occurring predominately at low to mid elevations in the GCFR, is also well supported (LPP = 1.00), with the internal relationships of this clade resolved with high support (LPP = 1.00) on most nodes. Relationships within the Lowlands clade are largely consistent with those reported by [@Verboom2003]. Within this larger clade, the Rehmannii (LPP = 1.00) and Ramosa clades (LPP = 1.00) are resolved as sisters with strong support (LPP = 1.00). However, as in the Setacea clade, most subspecies are not resolved as monophyletic.
 
+
+
+### Heatmaps
+
+
+
+**Setacea**
+
+
+
+The phylogeny of the Setacea clade is characterised by extremely short internal branch lengths which are often poorly supported (Fig.). Nonetheless, it is clear that both _E. setacea_ and _E. rupestris_, as currently defined, are polyphyletic. Four major clades are recovered with good support by the ASTRAL analyses. These are: (i) a clade comprising _E. rupestris_ subsp. _rupestris_ accessions from the western cape mountains  (LPP = 1.0, Western Rupestris); (ii) a clade comprising all _E. setacea_ subsp. _uniflora_ accessions, in addition to  _E. setacea_ subsp. _disticha_ and  _E. setacea_ subsp. _setacea_ accessions collected from the greater Hermanus area, and _E. rupestris_ subsp. _tricostata_ accessions from more coastal mountain ranges; (iii) a clade consisting of the remaining  _E. setacea_ subsp. _setacea_ and  _E. rupestris_ subsp. _tricostata_ accessions, as well as all  _E. rupestris_ subsp. _dodii_ and _E. setacea_ subsp. _scabra_ accession; and (iv) a clade
+
+consisting of the Setacea, Dodii, Leafy Tricostata and Scabra clades (BS = 97, LPP = 0.68).
+
+(i) the a clade comprising _E. rupestris_ subsp. _rupestris_ accessions from the Swartberg and Langeberg mountain ranges  (LPP = 1.0, Eastern Rupestris clade)
+
+The high-elevation Setacea clade contains short branch lengths and limited phylogenetic support for many nodes. Nonetheless, we are able to infer several groupings. _E. rupestris_ subsp. _rupestris_ samples from the western Langeberg and Swartberg mountain ranges form a strongly supported clade (LPP = 1.00) sister to the rest of the Setacea clade. The majority of the _E. setacea_ subsp. _setacea_ samples form a monophyletic group (LPP = 0.51), with the exception of an accession from Fernkloof (1600).  
+
+Strong convergence between population level genetic similarity and phylogenetic groups.
+
+The heatmap shows 11 clusters of strong genetic similarity
 
 ## References
