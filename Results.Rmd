@@ -91,7 +91,7 @@ ggtree(tree, right = T) +
                     extend = 0.5,
                     offset.text = 0.04) +
     geom_cladelabel(node = 127, 
-                    label = "Lowlands clade", 
+                    label = "Lowland clade", 
                     #align = T,
                     colour = "#1D4F9F",
                     fontsize = 4.5,
@@ -140,6 +140,11 @@ ggtree(tree, right = T) +
                     #angle = 90,
                     #hjust = 0.5,
                     offset.text = 0.04)
+
+
+```
+
+```{r}
 
 
 ```
